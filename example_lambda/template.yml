@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Resources:
+  myfunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: co.com.example_lambda.my.function.controller.LambdaController::execute
+      Runtime: java8
+      CodeUri: './my-function/build/distributions/my-function-0.1.0.zip'
+      MemorySize: 512
+      Timeout: 30
+      Environment:
+        Variables:
+          ENVIRONMENT: 'dev'

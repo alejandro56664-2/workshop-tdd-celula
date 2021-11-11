@@ -1,0 +1,14 @@
+{
+  "generator-lambda-java-mn": {
+    "appVersion": "0.1.0",
+    "pkgBase": "co.com.example_lambda",
+    "functionName": "my-function",
+    "functionsList": [
+      "my-function"
+    ],
+    "my-function": {
+      "fn-controller-dependencies": true,
+      "config-manager-ssm-dependencies": true
+    }
+  }
+}
