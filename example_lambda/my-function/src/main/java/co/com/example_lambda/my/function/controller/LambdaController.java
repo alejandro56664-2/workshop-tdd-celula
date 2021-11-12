@@ -1,5 +1,5 @@
 package co.com.example_lambda.my.function.controller;
- 
+
 import co.com.example_lambda.my.function.model.request.Request;
 import co.com.example_lambda.my.function.model.response.Response;
 import co.com.example_lambda.my.function.service.ILambdaService;
@@ -16,7 +16,7 @@ public class LambdaController extends MicronautRequestHandler<Request, Response>
   @Override
   public Response execute(final Request input) {
     log.info("Start consumer LambdaController");
-    final Response client = lambdaService.get(input.getMessage());
+    final Response client = lambdaService.get(input);
     log.info("End consumer LambdaController");
     return client;
   }

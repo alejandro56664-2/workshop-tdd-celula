@@ -1,3 +1,14 @@
 {
-    "message": "hola"
+    "idNumber": "1096034447",
+    "idType": "CC",
+    "images": [
+      {
+        "name": "face",
+        "url": "https://example-validation-storage.s3.us-east-2.amazonaws.com//000001.jpg"
+      },
+      {
+        "name": "document",
+        "url": "https://example-validation-storage.s3.us-east-2.amazonaws.com//000002.jpg"
+      }
+    ]
 }
