@@ -56,7 +56,7 @@ Ejemplo consumo Servicio backend de terceros:
 - Respuesta satisfactoria:
 ```
 {
-  "response": {
+  "content": {
     "score": "0.89" //valor entre 0 y 1
   }
 }

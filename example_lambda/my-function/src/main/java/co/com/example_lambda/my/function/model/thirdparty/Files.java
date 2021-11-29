@@ -10,7 +10,7 @@ import lombok.experimental.FieldDefaults;
 @Data
 @Introspected
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class IssueStatus {
-  private Content content;
-  private Error error;
+public class Files {
+  private String file1;
+  private String file2;
 }

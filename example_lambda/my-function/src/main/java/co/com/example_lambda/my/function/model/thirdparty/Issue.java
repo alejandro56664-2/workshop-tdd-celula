@@ -11,4 +11,7 @@ import lombok.experimental.FieldDefaults;
 @Introspected
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class Issue {
+  private String id;
+  private String idType;
+  private Files files;
 }
