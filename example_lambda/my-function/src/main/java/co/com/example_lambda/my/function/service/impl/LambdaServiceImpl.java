@@ -15,7 +15,7 @@ public class LambdaServiceImpl implements ILambdaService {
 
   @Inject ConfigRetriever configRetriever;
 
-  //TODO: agregar la dependencia a IThirdPartyClien y IStorageService.
+  //TODO: agregar la dependencia a IThirdPartyClient y IStorageService.
 
   @Override
   public Response get(Request request) {
