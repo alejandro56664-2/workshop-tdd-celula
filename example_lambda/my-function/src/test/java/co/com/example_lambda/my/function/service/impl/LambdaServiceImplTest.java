@@ -1,8 +1,10 @@
 package co.com.example_lambda.my.function.service.impl;
 
+import co.com.example_lambda.my.function.clientws.IThirdPartyClient;
 import co.com.example_lambda.my.function.config.ConfigRetriever;
 import co.com.example_lambda.my.function.model.request.Request;
 import co.com.example_lambda.my.function.model.response.Response;
+import co.com.example_lambda.my.function.service.IStorageService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -13,6 +15,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(MockitoExtension.class)
 class LambdaServiceImplTest {
+
+  @Mock IStorageService storageService;
+
+  @Mock IThirdPartyClient clientws;
 
   @Mock ConfigRetriever configRetriever;
 
@@ -36,16 +42,13 @@ class LambdaServiceImplTest {
      - Timely: las pruebas son oportunas, en el sentido de que agregan valor.
    */
 
-  //TODO: agregue los mocks de
-  // IStorageService (abstracción del almacén en S3) y
-  // IThirdPartyClient (abstracción del cliente del serviciod de terceros)
   //TODO: Procure agregar siempre pruebas que agreguen valor para el negocio.
   @Test
   @DisplayName("Dummy Test")
   void executeTest() {
     // Se sugiere usar el patrón AAA para la escritura de pruebas. Es equivalente al given-when-then.
     // Siempre verifique si sigue los principios FIRST.
-    
+
     //Arrange
     Request request = Request.builder().build();
 
