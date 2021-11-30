@@ -12,6 +12,6 @@ public interface IThirdPartyClient {
    * @param issue contiene la información de una persona para ser validada.
    * @return IssueStatus
    */
-  IssueStatus createIssue(Issue issue);
+  IssueStatus postIssue(Issue issue);
 
 }

@@ -9,7 +9,7 @@ import javax.inject.Singleton;
 public class ThridPartyClientImpl implements IThirdPartyClient{
 
   @Override
-  public IssueStatus createIssue(Issue issue) {
+  public IssueStatus postIssue(Issue issue) {
     //TODO implementar acceso a almacenamiento remoto.
     return null;
   }
