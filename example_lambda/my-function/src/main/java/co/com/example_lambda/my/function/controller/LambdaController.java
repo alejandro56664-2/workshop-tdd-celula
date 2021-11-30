@@ -16,7 +16,7 @@ public class LambdaController extends MicronautRequestHandler<Request, Response>
   @Override
   public Response execute(final Request input) {
     log.info("Start consumer LambdaController");
-    final Response client = lambdaService.get(input);
+    final Response client = lambdaService.createIssue(input);
     log.info("End consumer LambdaController");
     return client;
   }

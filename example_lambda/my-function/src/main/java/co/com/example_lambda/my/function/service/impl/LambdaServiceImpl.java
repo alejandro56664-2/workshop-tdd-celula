@@ -23,7 +23,7 @@ public class LambdaServiceImpl implements ILambdaService {
   @Inject IStorageService storage;
 
   @Override
-  public Response get(Request request) {
+  public Response createIssue(Request request) {
     configRetriever
         .getConfiguration()
         .ifPresent(c -> log.info("Configuración disponible: {}", c.toString()));

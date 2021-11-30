@@ -9,5 +9,5 @@ public interface ILambdaService {
    * @param request
    * @return response
    */
-  Response get(Request request);
+  Response createIssue(Request request);
 }

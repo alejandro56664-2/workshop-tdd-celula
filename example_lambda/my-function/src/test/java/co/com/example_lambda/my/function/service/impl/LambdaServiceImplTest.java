@@ -53,7 +53,7 @@ class LambdaServiceImplTest {
     Request request = Request.builder().build();
 
     //Act
-    Response result = service.get(request);
+    Response result = service.createIssue(request);
 
     //Assert
     assertNotNull(result);
