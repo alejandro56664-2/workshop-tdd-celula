@@ -73,6 +73,23 @@ Ejemplo consumo Servicio backend de terceros:
 
 ### Contexto del ejercicio
 
+#### Diagrama de contexto
+![Diagrama de contexto](./docs/assets/workshop-tdd-diagrams-Diagrama%20de%20contexto.png "Diagrama de contexto")
+
+#### Diagrama de escenarios
+![Diagrama de escenarios](./docs/assets/workshop-tdd-diagrams-Diagrama%20escenarios.png "Diagrama de escenarios")
+
+#### Diagrama de flujo servicio
+![Diagrama de clases](./docs/assets/workshop-tdd-diagrams-Diagrama%20de%20flujo%20servicio.png "Diagrama de clases")
+
+#### Diagrama de paquetes
+![Diagrama de paquetes](./docs/assets/workshop-tdd-diagrams-Diagrama%20de%20paquetes.png "Diagrama de paquetes")
+
+#### Diagrama de clases
+![Diagrama de clases](./docs/assets/workshop-tdd-diagrams-Diagrama%20de%20clases.png "Diagrama de clases")
+
+
+
 Para la realización de este ejercicio, ya se encuentran construidos:
 
 - Modelos
